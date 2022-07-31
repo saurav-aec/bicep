@@ -10,6 +10,7 @@
 // Virtual Network - address space, subnets
 // Public IP 
 // Network Interface - Subnet and Public IP
+// Resource Id: "/subscriptions/0eb97a9f-ed07-42cd-9c65-a0027bddf925/resourceGroups/sbIndiaServer"
 
 
 param location string = resourceGroup().location
