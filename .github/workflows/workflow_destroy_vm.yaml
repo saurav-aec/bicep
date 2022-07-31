@@ -1,4 +1,4 @@
-name: DeployIndiaVM
+name: Delete_IndiaVM
 
 on: [workflow_dispatch]
 
@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: azure/login@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        creds: ${{ secrets.VM_DEPLOY }}
     - uses: azure/arm-deploy@v1
       with:
         deploymentName: ${{ github.run_number }}
